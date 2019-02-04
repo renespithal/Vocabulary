@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>House</string>
+		<key>translation</key>
+		<string>Haus</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Car</string>
+		<key>translation</key>
+		<string>Auto</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Room</string>
+		<key>translation</key>
+		<string>Raum</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hello</string>
+		<key>translation</key>
+		<string>Hallo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bye</string>
+		<key>translation</key>
+		<string>Tschüss</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cat</string>
+		<key>translation</key>
+		<string>Katze</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dog</string>
+		<key>translation</key>
+		<string>Hund</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bill</string>
+		<key>translation</key>
+		<string>Rechnung</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>File</string>
+		<key>translation</key>
+		<string>Datei</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>North</string>
+		<key>translation</key>
+		<string>Norden</string>
+	</dict>
+</array>
+</plist>

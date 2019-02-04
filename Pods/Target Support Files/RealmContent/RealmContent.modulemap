@@ -1,0 +1,6 @@
+framework module RealmContent {
+  umbrella header "RealmContent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,267 @@
+PODS:
+  - AEAccordion (2.0.0)
+  - AMPopTip (2.1.6)
+  - arek (1.4.1):
+    - arek/Bluetooth (= 1.4.1)
+    - arek/Camera (= 1.4.1)
+    - arek/CloudKit (= 1.4.1)
+    - arek/Contacts (= 1.4.1)
+    - arek/Core (= 1.4.1)
+    - arek/Events (= 1.4.1)
+    - arek/Health (= 1.4.1)
+    - arek/Location (= 1.4.1)
+    - arek/MediaLibrary (= 1.4.1)
+    - arek/Microphone (= 1.4.1)
+    - arek/Motion (= 1.4.1)
+    - arek/Notifications (= 1.4.1)
+    - arek/Photos (= 1.4.1)
+    - arek/Reminders (= 1.4.1)
+    - arek/SpeechRecognizer (= 1.4.1)
+    - PMAlertController (= 2.1.2)
+  - arek/Bluetooth (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Camera (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/CloudKit (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Contacts (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Core (1.4.1):
+    - PMAlertController (= 2.1.2)
+  - arek/Events (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Health (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Location (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/MediaLibrary (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Microphone (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Motion (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Notifications (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Photos (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/Reminders (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - arek/SpeechRecognizer (1.4.1):
+    - arek/Core
+    - PMAlertController (= 2.1.2)
+  - AZDialogView (1.1.3)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Branch (0.16.2):
+    - Branch/Core (= 0.16.2)
+    - Branch/without-IDFA (= 0.16.2)
+    - Branch/without-Safari (= 0.16.2)
+  - Branch/Core (0.16.2)
+  - Branch/without-IDFA (0.16.2)
+  - Branch/without-Safari (0.16.2)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DGRunkeeperSwitch (1.1.4)
+  - ElasticTransition (3.1.1):
+    - MotionAnimation (~> 0.1.2)
+  - ESTabBarController-swift (2.4)
+  - EZAlertController (3.2)
+  - FBSDKCoreKit (4.25.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.25.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.25.0):
+    - FBSDKCoreKit
+  - Former (1.5.1)
+  - Gallery (1.2.0)
+  - GLInAppPurchase (1.1.3)
+  - Haptica (1.0.3)
+  - Hero (0.3.6)
+  - Highlighter (1.1.0)
+  - Hue (2.0.1)
+  - Kingfisher (3.10.4)
+  - Koloda (4.1):
+    - pop (~> 1.0)
+  - KVOController (1.2.0)
+  - Lightbox (1.0.0):
+    - Hue
+  - LineSDK (4.0.2)
+  - Localize-Swift (1.7.1)
+  - M13ProgressSuite (1.2.9)
+  - MIBlurPopup (0.1.1)
+  - MonkeyKing (1.2.3)
+  - MotionAnimation (0.1.2)
+  - NSString+Color (1.1.4)
+  - OneSignal (2.5.4)
+  - Paralayout (0.8)
+  - Pastel (0.3.0)
+  - PieCharts (0.0.5)
+  - PMAlertController (2.1.2)
+  - PMSuperButton (1.0.0)
+  - pop (1.0.10)
+  - PopupDialog (0.5.4)
+  - Presentr (1.2.3)
+  - Realm (2.9.0):
+    - Realm/Headers (= 2.9.0)
+  - Realm/Headers (2.9.0)
+  - RealmContent (0.1.0):
+    - Kingfisher
+    - NSString+Color
+    - RealmContent/Core (= 0.1.0)
+    - RealmSwift
+  - RealmContent/Core (0.1.0):
+    - Kingfisher
+    - NSString+Color
+    - RealmSwift
+  - RealmSwift (2.9.0):
+    - Realm (= 2.9.0)
+  - ScrollableGraphView (4.0.4)
+  - SVProgressHUD (2.1.2)
+  - SwiftCharts (0.6)
+  - SwipeCellKit (1.9.0)
+  - TBEmptyDataSet (2.5)
+  - TinyConstraints (2.1.1)
+  - TJProfileImage (0.2.0)
+  - TKSubmitTransitionSwift3 (0.5)
+  - VK-ios-sdk (1.4.6)
+  - VSSocialButton (1.1)
+  - Whisper (5.0.0)
+
+DEPENDENCIES:
+  - AEAccordion
+  - AMPopTip
+  - arek
+  - AZDialogView
+  - Bolts
+  - Branch
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - DGRunkeeperSwitch
+  - ElasticTransition
+  - ESTabBarController-swift
+  - EZAlertController
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Former
+  - Gallery
+  - GLInAppPurchase
+  - Haptica
+  - Hero
+  - Highlighter
+  - Hue
+  - Koloda
+  - KVOController
+  - Lightbox
+  - LineSDK
+  - Localize-Swift
+  - M13ProgressSuite
+  - MIBlurPopup
+  - MonkeyKing
+  - OneSignal
+  - Paralayout
+  - Pastel
+  - PieCharts
+  - PMSuperButton
+  - PopupDialog
+  - Presentr
+  - RealmContent
+  - RealmSwift
+  - ScrollableGraphView
+  - SVProgressHUD
+  - SwiftCharts
+  - SwipeCellKit
+  - TBEmptyDataSet
+  - TinyConstraints
+  - TJProfileImage
+  - TKSubmitTransitionSwift3
+  - VK-ios-sdk
+  - VSSocialButton
+  - Whisper
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  AEAccordion: 1402921d0bc0f8a5d7b4fe7a80ca7162225bc032
+  AMPopTip: 81f57556ae12500d30ff595078b1b6d11076ced8
+  arek: 4b17967699becff653076cd22112f9e07cad5710
+  AZDialogView: ac970f4d909334b9bc05aa649c3f9ac73436f804
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Branch: 41b7ee6b45f914cf58c10a9d555ac802142bc91c
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DGRunkeeperSwitch: cc237936f42237307f5e212e18136a27bf907bf1
+  ElasticTransition: 6c4e4739e32480c864217db912100f3657f6447a
+  ESTabBarController-swift: af496895039ba10ae60bf825473c45f23fc5c8b6
+  EZAlertController: 633be01320bed47720be54054df47667d61c2481
+  FBSDKCoreKit: 53e3f4bfb64e80c5f229dd30ae33ff57fbbbd2d1
+  FBSDKLoginKit: f628c09684dae9c17f071cf90b014e886f5093ea
+  FBSDKShareKit: aea699d3cac749af08e360f4e949b82ffa8813f5
+  Former: 0b48a812c0d93b092b908d1b0574d0fd95c6b6f9
+  Gallery: 925b8133efa9d8fe933918f242b64110c6478b98
+  GLInAppPurchase: 57e3fcede4909be2a7b21a6a716883db9d7524c7
+  Haptica: eb4683c97ecef22eae232ddbb8cfcd73c74fd179
+  Hero: d3c6f4dd80cdcdbb339be64e57ae3b5c3ab9938c
+  Highlighter: 1777a033225cc5f546b700876df20f7d76de8888
+  Hue: 354caec055fdc9d38b5ef33ca2e7224721843baf
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  Koloda: 6c4fa3ce9a68776a8ef973311e53fdda432799a8
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  Lightbox: 13f55a0a840f7945dc5ac87931564e7fe569fca9
+  LineSDK: c738ac9451ca35abd152dceacd8c92cdde658e43
+  Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
+  M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
+  MIBlurPopup: debbc8f4f631809797140d37b5476745a61e90be
+  MonkeyKing: 1cfd8fb7984f1d747c1f7c1179d755f8cc58e9b4
+  MotionAnimation: ff5c8fc2e429d7e10d46ae86819ba9759846c343
+  NSString+Color: ea9e33d498d634adf56766c606c9128822094473
+  OneSignal: da994bcf6a2efbdceaf71e389e1d05245c562899
+  Paralayout: ad48ac9d8fa8f0c40d15c22f6cbcdd2c037b0196
+  Pastel: 738740c84f2b15bbcd96ebe99c4e6c2f5dd42262
+  PieCharts: a0fb4784a3460088c8ba7dfb00b89784ddaa7e70
+  PMAlertController: 0fbcc3d1cee86ee0bd85f693ca85f6388e504ec8
+  PMSuperButton: e107f6817c0e001155af6cfce24da6a708cd8215
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  Presentr: a21c7bbb3532c8ff60320e235c0a4869e72f8885
+  Realm: f14ab1673502559cb16592ddb8f383c474c13e05
+  RealmContent: b95821af7a72f20b21ea3ea83f0442da051adf31
+  RealmSwift: 16ad2c187042c4934f49750375582fe508627dcb
+  ScrollableGraphView: 072ea302f4ca27779692656a49d51fe537b2b1e7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftCharts: d8e6d60679bc982f48f8bea25cf5c1b94fcfec4f
+  SwipeCellKit: 893661973276ae3512a84ac0a47055923b10731e
+  TBEmptyDataSet: 4527a34cba692e29964b2a07d0ffc46b20946bca
+  TinyConstraints: 4162762831c5e2001f7eefb07056db14e3dcc422
+  TJProfileImage: 510c9fbdb378942e8814abb15e5ab28ac8db0b87
+  TKSubmitTransitionSwift3: fadd76eefa015542d0fe6d85424a43dd6f3354d2
+  VK-ios-sdk: 7fd48bc5aaa6b96c3197c1987eb6593f2ea67331
+  VSSocialButton: 3079f57a9c60ee02eef205125c5427281269a93e
+  Whisper: 051f25e704bf8992641ffd28b20d5682ddc5f5d3
+
+PODFILE CHECKSUM: 82f2ec3c802cbfe5b713cd2d4cf945827dd8e77a
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Frosch</string>
+		<key>translation</key>
+		<string>Frog</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kröte</string>
+		<key>translation</key>
+		<string>Toad</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hummer</string>
+		<key>translation</key>
+		<string>Lobster</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hai</string>
+		<key>translation</key>
+		<string>Shark</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lachs</string>
+		<key>translation</key>
+		<string>Salmon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Qualle</string>
+		<key>translation</key>
+		<string>Jellyfish</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Seekuh</string>
+		<key>translation</key>
+		<string>Manatee</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tintenfisch</string>
+		<key>translation</key>
+		<string>Squid</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wels</string>
+		<key>translation</key>
+		<string>Catfish</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Garnele</string>
+		<key>translation</key>
+		<string>Shrimp</string>
+	</dict>
+</array>
+</plist>

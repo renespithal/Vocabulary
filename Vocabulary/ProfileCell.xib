@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoreTableViewControllerIB" customModule="Vocabulary" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="343" id="YTT-jT-l4Z" customClass="ProfileCell" customModule="Vocabulary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="272"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YTT-jT-l4Z" id="TSV-vQ-Atx">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="271.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVj-tJ-ftj">
+                        <rect key="frame" x="171" y="157" width="33" height="17"/>
+                        <accessibility key="accessibilityConfiguration" identifier="PofileCommentLabel"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="fso-90-NcL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTL-gy-c6d">
+                        <rect key="frame" x="169" y="136" width="37.5" height="20"/>
+                        <accessibility key="accessibilityConfiguration" identifier="PofileNameLabel"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="LkQ-62-5Z0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="heD-JL-Dfd">
+                        <rect key="frame" x="130" y="15" width="115" height="115"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="Y4t-MG-y6r"/>
+                            <constraint firstAttribute="height" constant="115" id="yCu-ef-9QZ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u17-jV-M8u" userLabel="ProfileBGI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="272"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="u17-jV-M8u" firstAttribute="top" secondItem="TSV-vQ-Atx" secondAttribute="top" id="26m-xQ-zHo"/>
+                    <constraint firstItem="gTL-gy-c6d" firstAttribute="top" secondItem="heD-JL-Dfd" secondAttribute="bottom" constant="6" id="2TN-n7-uKy"/>
+                    <constraint firstItem="u17-jV-M8u" firstAttribute="leading" secondItem="TSV-vQ-Atx" secondAttribute="leading" id="9PD-rP-5RU"/>
+                    <constraint firstItem="heD-JL-Dfd" firstAttribute="centerX" secondItem="TSV-vQ-Atx" secondAttribute="centerX" id="Dpn-sm-yYX"/>
+                    <constraint firstItem="heD-JL-Dfd" firstAttribute="top" secondItem="TSV-vQ-Atx" secondAttribute="topMargin" constant="7" id="EwO-cq-ZBB"/>
+                    <constraint firstItem="lVj-tJ-ftj" firstAttribute="centerX" secondItem="TSV-vQ-Atx" secondAttribute="centerX" id="ICX-yx-fYG"/>
+                    <constraint firstItem="gTL-gy-c6d" firstAttribute="centerX" secondItem="TSV-vQ-Atx" secondAttribute="centerX" id="MvW-0z-T3u"/>
+                    <constraint firstAttribute="trailing" secondItem="u17-jV-M8u" secondAttribute="trailing" id="Pja-ZF-Ed7"/>
+                    <constraint firstAttribute="bottom" secondItem="u17-jV-M8u" secondAttribute="bottom" id="Wfg-JG-POY"/>
+                    <constraint firstItem="gTL-gy-c6d" firstAttribute="bottom" secondItem="lVj-tJ-ftj" secondAttribute="top" constant="-1" id="yNA-4b-ge7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pofileBGI" destination="u17-jV-M8u" id="lql-Jz-Le5"/>
+                <outlet property="profileCommentLabel" destination="lVj-tJ-ftj" id="2DR-TK-NhF"/>
+                <outlet property="profileNameLabel" destination="gTL-gy-c6d" id="ffp-sH-jd9"/>
+                <outlet property="profilePictureView" destination="heD-JL-Dfd" id="Vcz-R4-Egq"/>
+            </connections>
+            <point key="canvasLocation" x="23.5" y="134"/>
+        </tableViewCell>
+    </objects>
+</document>
